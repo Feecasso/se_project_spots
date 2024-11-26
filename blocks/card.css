@@ -3,6 +3,11 @@
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 330px;
+  color: #21212121;
 }
 .card__content {
   display: flex;
@@ -27,6 +32,11 @@
   background-color: transparent;
   opacity: 0.4;
   margin: 12px 0 0;
+  cursor: pointer;
+}
+
+.card__like-btn:hover {
+  opacity: 1;
 }
 
 @media screen and (max-width: 627px) {
