@@ -2,6 +2,7 @@
   display: flex;
   padding: 34px 0 20px;
   border-bottom: 1px rgba(33, 33, 33, 0.4) solid;
+  max-width: 1280px;
 }
 
 .profile__avatar {
@@ -107,7 +108,7 @@
     align-self: center;
   }
 
-  .profile__add-btn {
+  .profile_add-btn {
     width: 100%;
     justify-content: center;
     margin-left: 0;
