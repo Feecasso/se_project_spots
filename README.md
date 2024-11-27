@@ -1,21 +1,68 @@
-# Project 3: Spots
+# Spots - Project 3
 
-### Overview
+## Overview
 
-- Intro
-- Figma
-- Images
+Spots is a web development project designed to showcase visually engaging content while maintaining responsive and accessible design principles. The goal is to create a visually pleasing, user-friendly layout that works seamlessly across all devices.
 
-**Intro**
+### Features:
 
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+- Fully responsive layout for desktop, tablet, and mobile devices.
 
-**Figma**
+- Styled components following modern web design principles.
 
-- [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
+- Optimized assets to ensure fast performance and user engagement.
+
+- Layout and structure inspired by a professional Figma prototype.
+
+## Tech Stack
+
+
+This project was built using the following technologies:
+
+
+- **HTML5**: For semantic and accessible markup.
+
+- **CSS3**: To style and implement responsive designs.
+
+- **Figma**: Used as the design reference for layout and styling.
+
+- **BEM (Block Element Modifier)**: A methodology for creating reusable components and maintaining clean, scalable code.
+
+- **CSS Grid**: A layout system for creating complex, grid-based, and responsive 
+designs.
+Images
 
 **Images**
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster.
+All images used in the project are optimized for web usage:
 
-Good luck and have fun!
+- Compressed to ensure fast loading speeds without compromising quality.
+
+- Properly sized for different screen resolutions (e.g., desktop, tablet, mobile).
+
+- Includes decorative and content-relevant visuals to enhance the design.
+
+## Demo
+
+### GitHub Pages:
+
+You can view the deployed version of the project on GitHub Pages:
+
+[View Spots on GitHub Pages](#)
+
+### YouTube:
+
+Watch a video demo of the project on YouTube:
+
+[Click here to view on YouTube](#)
+
+---
+
+## Installation and Usage
+
+1. Clone this repository:
+
+   ```bash
+
+   git clone <repository-url>
+   ```
