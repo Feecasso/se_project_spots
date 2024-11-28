@@ -16,9 +16,7 @@ Spots is a web development project designed to showcase visually engaging conten
 
 ## Tech Stack
 
-
 This project was built using the following technologies:
-
 
 - **HTML5**: For semantic and accessible markup.
 
@@ -28,9 +26,9 @@ This project was built using the following technologies:
 
 - **BEM (Block Element Modifier)**: A methodology for creating reusable components and maintaining clean, scalable code.
 
-- **CSS Grid**: A layout system for creating complex, grid-based, and responsive 
-designs.
-Images
+- **CSS Grid**: A layout system for creating complex, grid-based, and responsive
+  designs.
+  Images
 
 **Images**
 
@@ -48,7 +46,7 @@ All images used in the project are optimized for web usage:
 
 You can view the deployed version of the project on GitHub Pages:
 
-[View Spots on GitHub Pages](#)
+[[View Spots on GitHub Pages](https://feecasso.github.io/se_project_spots/)](#)
 
 ### YouTube:
 
