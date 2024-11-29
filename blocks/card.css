@@ -7,7 +7,7 @@
   white-space: nowrap;
   overflow: hidden;
   max-width: 330px;
-  color: #21212121;
+  color: #000;
 }
 .card__content {
   display: flex;
@@ -24,7 +24,7 @@
 }
 
 .card__like-btn {
-  background-image: url(../images/like\ icon.png);
+  background-image: url(../images/like\ icon.svg);
   width: 23px;
   height: 20px;
   padding: 0;
@@ -52,5 +52,6 @@
   .card__title {
     font-size: 16px;
     line-height: 16px;
+    max-width: 250px;
   }
 }

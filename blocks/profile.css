@@ -9,6 +9,7 @@
 .profile__avatar {
   margin-right: 20px;
   border-radius: 8px;
+  object-fit: cover;
 }
 .profile__column {
   display: flex;
@@ -65,7 +66,7 @@
   cursor: pointer;
 }
 
-.profile_add-btn {
+.profile__add-btn {
   display: flex;
   justify-content: center;
   align-items: center;
