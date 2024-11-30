@@ -46,7 +46,10 @@ All images used in the project are optimized for web usage:
 
 You can view the deployed version of the project on GitHub Pages:
 
-[[View Spots on GitHub Pages](https://feecasso.github.io/se_project_spots/)](#)
+[
+[View Spots on GitHub Pages](#)](https://feecasso.github.io/se_project_spots/)
+
+> > > > > > > c5a20fb633db0284491e5f237d1ae09862977492
 
 ### YouTube:
 
