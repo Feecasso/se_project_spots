@@ -55,7 +55,7 @@ You can view the deployed version of the project on GitHub Pages:
 
 Watch a video demo of the project on YouTube:
 
-[Click here to view on YouTube](#)
+[Click here to view on YouTube](https://youtu.be/yE50EvqDgUw)
 
 ---
 
