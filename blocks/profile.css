@@ -66,6 +66,10 @@
   cursor: pointer;
 }
 
+.profile__edit-btn:hover {
+  opacity: 1;
+}
+
 .profile__add-btn {
   display: flex;
   justify-content: center;
@@ -125,7 +129,7 @@
     align-self: center;
   }
 
-  .profile_add-btn {
+  .profile__add-btn {
     width: 100%;
     justify-content: center;
     margin-left: 0;
