@@ -24,3 +24,12 @@ const initialCards = [
     link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/6-photo-by-van-anh-nguyen-from-pexels.jpg",
   },
 ];
+
+const profileEditButton = document.querySelector(".profile__edit-btn");
+
+const editProfileModal = document.querySelector("#edit-profile-modal");
+
+function openModal() {
+  editProfileModal.classList.add("modal_opened");
+}
+profileEditButton.addEventListener("click", openModal);
