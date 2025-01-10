@@ -29,7 +29,7 @@ const profileEditButton = document.querySelector(".profile__edit-btn");
 
 const editModal = document.querySelector("#edit-modal");
 
-const editModalCloseBtn = editModal.querySelector("modal__close-btn");
+const editModalCloseBtn = editModal.querySelector(".modal__close-btn");
 
 function openModal() {
   editModal.classList.add("modal__opened");
