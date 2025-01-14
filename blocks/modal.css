@@ -13,7 +13,7 @@
   font-size: 32px;
 }
 
-.modal__opened {
+.modal_opened {
   visibility: visible;
 }
 
