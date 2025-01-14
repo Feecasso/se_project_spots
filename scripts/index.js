@@ -46,7 +46,6 @@ const editModalDescriptionInput = editModal.querySelector(
 const cardTemplate = document.querySelector("#card-template");
 
 const cardsList = document.querySelector(".cards__list");
-const cardImageEl = document.querySelector(".cards__image");
 
 function getCardelement(data) {
   const cardElement = cardTemplate.content
@@ -54,6 +53,7 @@ function getCardelement(data) {
     .cloneNode(true);
 
   const cardNameEl = cardElement.querySelector(".card__title");
+  const cardImageEl = cardElement.querySelector(".card__image");
 
   cardNameEl.textContent = data.name;
   cardImageEl.src = data.link;
