@@ -24,13 +24,15 @@ const initialCards = [
     link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/6-photo-by-moritz-feldmann-from-pexels.jpg",
   },
 ];
-
+//profile elements
 const profileEditButton = document.querySelector(".profile__edit-btn");
+
+const cardModalButton = document.querySelector(".profile__add-btn");
 
 const profileName = document.querySelector(".profile__name");
 
 const profileDescription = document.querySelector(".profile__description");
-
+//form elements
 const editModal = document.querySelector("#edit-modal");
 
 const editFormElement = document.querySelector(".modal__form");
@@ -42,6 +44,11 @@ const editModalNameInput = editModal.querySelector("#profile-name-input");
 const editModalDescriptionInput = editModal.querySelector(
   "#profile-description-input"
 );
+
+const cardModal = document.querySelector("#add-card-modal");
+const cardModalCloseBtn = cardModal.querySelector(".modal_close-btn");
+
+//card related elements
 
 const cardTemplate = document.querySelector("#card-template");
 
