@@ -48,6 +48,26 @@
   background-image: url(../images/heatlikewhite.svg);
 }
 
+.card__trash-btn {
+  background-image: url(../images/trashdefault.png);
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 10px;
+  left: 246px;
+  border: none;
+  background-color: transparent;
+  opacity: 40%;
+  cursor: auto;
+  cursor: pointer;
+  background: contain;
+}
+
+.card__trash-btn:hover {
+  background-image: url(../images/redtrash.png);
+  opacity: 1;
+}
+
 @media screen and (max-width: 627px) {
   .card__image {
     height: 288px;
