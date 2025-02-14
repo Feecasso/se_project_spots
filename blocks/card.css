@@ -1,3 +1,7 @@
+.card {
+  position: relative;
+}
+
 .card__title {
   margin: 12px 0 0;
   font-size: 20px;
@@ -54,7 +58,7 @@
   width: 32px;
   height: 32px;
   top: 10px;
-  left: 246px;
+  right: 371px;
   border: none;
   background-color: transparent;
   opacity: 40%;
