@@ -42,6 +42,17 @@
   max-height: 80vh;
 }
 
+.modal__caption {
+  color: #ffffff;
+  background-color: #212121;
+  width: 100%;
+  padding: 4px 8px;
+  margin: 8px 0 0;
+  border-radius: 8px;
+  width: fit-content;
+  position: absolute;
+}
+
 .modal__close-btn {
   position: absolute;
   top: 32px;
@@ -115,6 +126,7 @@
   font-size: 20px;
   opacity: 100%;
 }
+
 @media screen and (max-width: 720px) {
   .modal {
     padding: 0 10px;
