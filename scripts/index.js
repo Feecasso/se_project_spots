@@ -58,8 +58,9 @@ function handleAddCardSubmit(evt) {
   evt.preventDefault();
   const inputValues = { name: cardNameInput.value, link: cardLinkInput.value };
   const cardEl = getCardelement(inputValues);
+
   cardsList.prepend(cardEl); //reference to card list
-  evt.target.rest(); // clears form inputs
+  evt.target.reset(); // clears form inputs
   closeModal(cardModal); // close modaler submission
 }
 

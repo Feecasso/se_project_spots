@@ -40,17 +40,24 @@
   object-fit: contain;
   max-width: 80vw;
   max-height: 80vh;
+  border-radius: 8px;
 }
 
 .modal__caption {
   color: #ffffff;
   background-color: #212121;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.2;
   width: 100%;
   padding: 4px 8px;
   margin: 8px 0 0;
   border-radius: 8px;
+  text-align: center;
   width: fit-content;
   position: absolute;
+  border-radius: 8px;
+  font-family: "Poppin", Arial, Helvetica, sans-serif;
 }
 
 .modal__close-btn {
@@ -62,7 +69,9 @@
   background: transparent;
   background-image: url(../images/CloseIcon.svg);
   border: none;
-  transition: opacity 0.3s ease;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+  padding: 0;
 }
 
 .modal__close-btn_type_preview {
@@ -73,9 +82,8 @@
 }
 
 .modal__close-btn:hover {
-  opacity: 100%;
+  opacity: 1;
   cursor: pointer;
-  transition: 0.5s ease;
 }
 
 .modal__title {
