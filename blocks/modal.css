@@ -133,15 +133,43 @@
   font-weight: 500;
   font-size: 20px;
   opacity: 100%;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 675px) {
   .modal {
     padding: 0 10px;
   }
-  .modal__container {
+
+  .modal__content {
     padding: 12px;
   }
+
+  .modal__content_type_preview {
+    padding: 0;
+    position: relative;
+    left: -16px;
+  }
+
+  .modal__close-btn_type_preview {
+    right: -30px;
+    top: -48px;
+  }
+
+  .modal__image {
+    border-radius: 4px;
+    width: 288px;
+    max-width: 90vw;
+    max-height: 90vh;
+  }
+
+  .modal__caption {
+    font-size: 12px;
+    line-height: 19px;
+  }
+
   .modal__title {
     font-size: 20px;
     margin: 10px 0 30px;
