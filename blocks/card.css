@@ -45,12 +45,14 @@
 }
 
 .card__like-btn_liked {
-  background-image: url(../images/heatlikeblack.svg);
+  background-image: url(../images/heatlikewhite.svg);
   opacity: 1;
 }
 
 .card__like-btn_liked:hover {
-  background-image: url(../images/heatlikewhite.svg);
+  background-image: url(../images/heatlikeblack.svg);
+  opacity: 0.4;
+  cursor: pointer;
 }
 
 .card__trash-btn {
@@ -59,7 +61,7 @@
   width: 32px;
   height: 32px;
   top: 10px;
-  left: 371px;
+  right: 10px;
   border: none;
   background-color: transparent;
   opacity: 40%;
@@ -67,17 +69,14 @@
   cursor: pointer;
   background: contain;
 }
-
 .card__trash-btn:hover {
   background-image: url(../images/redtrash.png);
   opacity: 1;
 }
-
 @media screen and (max-width: 320px) {
   .card__image {
     height: 288px;
   }
-
   .card__like-btn {
     width: 20px;
     height: 18px;
@@ -85,7 +84,7 @@
   }
   .card__title {
     font-size: 16px;
-    line-height: 16px;
-    max-width: 250px;
+    line-height: 1;
+    max-width: 170px;
   }
 }
