@@ -81,10 +81,30 @@
     width: 20px;
     height: 18px;
     background-size: 20px 18px;
+    background-repeat: no-repeat;
   }
   .card__title {
     font-size: 16px;
     line-height: 1;
     max-width: 170px;
+  }
+
+  .card__trash-btn {
+    background-image: url(../images/trashdefault.png);
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background-color: transparent;
+    opacity: 40%;
+    cursor: auto;
+    cursor: pointer;
+    background: contain;
+  }
+  .card__trash-btn:hover {
+    background-image: url(../images/redtrash.png);
+    opacity: 1;
   }
 }
