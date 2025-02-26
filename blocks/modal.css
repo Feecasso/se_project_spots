@@ -101,6 +101,10 @@
   margin-bottom: 32px;
   font-size: 16px;
   opacity: 70%;
+  font-weight: 500;
+  line-height: 17.6px;
+  color: #212121;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .modal__submit-btn {
@@ -125,9 +129,12 @@
   border: 1px solid;
   border-radius: 8px;
   max-width: 630px;
+  font-weight: 500;
   height: 52px;
   color: #212121;
   opacity: 0.4;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 16px;
 }
 
 .modal__input:hover {
@@ -141,7 +148,6 @@
   font-size: 20px;
   opacity: 100%;
   font-size: 20px;
-  font-weight: 500;
   line-height: 1;
 }
 
@@ -168,8 +174,7 @@
   .modal__image {
     border-radius: 4px;
     width: 288px;
-    max-width: 90vw;
-    max-height: 90vh;
+    max-height: none;
   }
 
   .modal__caption {
