@@ -71,8 +71,7 @@
   background-image: url(../images/CloseIcon.svg);
   border: none;
   cursor: pointer;
-  transition: opacity 0.3s ease-in-out;
-  opacity: 0.4;
+  transition: visibility 0.3s, opacity 0.3s ease-in;
   padding: 0;
 }
 
@@ -190,7 +189,7 @@
     line-height: 20px;
   }
   .modal__close-btn {
-    top: 12px;
+    top: -48px;
     right: 12px;
     width: 40px;
     height: 40px;
