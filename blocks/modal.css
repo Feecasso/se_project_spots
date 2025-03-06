@@ -11,10 +11,14 @@
   align-items: center;
   visibility: hidden;
   font-size: 32px;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  opacity: 0;
+  transition: visibility 0.3s, opacity 0.3s ease-in;
 }
 
 .modal_opened {
   visibility: visible;
+  opacity: 1;
 }
 
 .modal__content {
@@ -71,6 +75,7 @@
   background-image: url(../images/CloseIcon.svg);
   border: none;
   cursor: pointer;
+  opacity: 0.7;
   transition: visibility 0.3s, opacity 0.3s ease-in;
   padding: 0;
 }
@@ -189,7 +194,7 @@
     line-height: 20px;
   }
   .modal__close-btn {
-    top: -48px;
+    top: 12px;
     right: 12px;
     width: 40px;
     height: 40px;
