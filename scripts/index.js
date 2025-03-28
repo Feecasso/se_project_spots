@@ -63,7 +63,7 @@ function handleAddCardSubmit(evt) {
 
   cardsList.prepend(cardEl); //reference to card list
   cardForm.reset(); // clears form inputs
-  disableButton(cardForm, settings);
+  disableButton(evt.submitter, settings);
   closeModal(cardModal); // close modaler submission
 }
 
